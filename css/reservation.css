@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/447177.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: white;
+    padding: 10px;
+}
+.content h1{
+    padding: 10px 0px;
+    font-size: 35px;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: auto;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 0px;
+}
+.navbar-nav li{
+    padding: 0 10px; 
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff! important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-right{
+    float: right;
+    list-style: none;
+    margin-top: 18px;
+}
+.navbar-right li{
+    display: inline-block;
+}
+.navbar-right li a{
+    color: Black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.tagline{
+    position: absolute;
+    width: 1400px;
+    margin-left: -35px;
+    margin-top: 170px;
+}
+.tagline img{
+    position: center;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: -20px;
+}
+h1{
+    color: white;
+    font-family: century gothic;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 265px;
+}
+.button{
+    margin-top: 8px;
+    margin-left: 560px;
+}
+.button a{
+    border: 1px solid white;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.btn:hover{
+    background-color: white;
+    transition: all 0.5s ease-in; 
+}
+.text-muted{
+    margin-left: 600px;
+    color: white;
+}
+footer{
+    background-color: moccasin;
+}
+.card-footer small{
+    font-family: Century gothic;
+    color: black;
+}
+select{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.box{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+.box select{
+    background: none;
+    color: white;
+    padding: 8px 110px;
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    -webkit-appearance: button;
+    border-radius: 3px;
+    background: none;
+    margin-left: 275px;
+    margin-top: 30px;
+    text-align: center;
+}
+.btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}

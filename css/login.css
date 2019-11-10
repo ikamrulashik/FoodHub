@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form-group{
+    
+    font-family: century gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/447177.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+}
+.content h1{
+    margin-bottom: 8px;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 0px;
+}
+.navbar-nav li{
+    padding: 0 10px; 
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff! important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.navbar-right{
+    float: right;
+    list-style: none;
+    margin-top: 18px;
+}
+.navbar-right li{
+    display: inline-block;
+}
+.navbar-right li a{
+    color: Black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+footer{
+    background-color: moccasin;
+    width: auto;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+}
+
+.form-check-label{
+    color: white;
+    background: none;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    
+    text-align: center;
+    margin: 0px;
+}
+h5{
+    padding: 20px 0px;
+}
+h5 a{
+    color: bule;
+}

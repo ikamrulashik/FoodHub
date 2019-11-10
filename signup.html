@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Food Hub Signup</title>
+        <link rel="stylesheet" type="text/css" href="/css/signup.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <section id="nav-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="/images/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurants</a></li>
+                            <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <div class="content">
+                <form method="get" action="index.html">
+                    <h1>Create an account</h1>
+                    <div class="textbox">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <div class="textbox">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" pattern = ".{5,10}" required title = "5 to 10 characters" placeholder="Password">
+                    </div>
+                     <div class="gender" required>
+                         <div>Gender</div>
+                        <label for = "Male">Male</label>
+                        <input id = "Male" name = "gender" type = "radio" value = "Male">
+                        <label for = "Female">Female</label>
+                        <input id = "Female" name = "gender" type = "radio" value = "Female">
+                        <label for = "Other">Other</label>
+                        <input id = "Other" name = "gender" type = "radio" value = "Other">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Agreed</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <h5>Have an account? <a href="login.html">Log in</a></h5>
+                </form>
+            </div>
+        </header>
+        <footer>
+            <div class="card-footer">
+                <small class="text-muted">© FoodHub 2019</small>
+            </div>
+        </footer>
+    </body>
+</html>
