@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Food Hub Login</title>
+        <link rel="icon" href="images/icon.png">
         <link rel="stylesheet" type="text/css" href="/css/reservation.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,6 +38,10 @@
                         <input type="name" class="form-control" id="exampleInputName" placeholder="Restaurant Name">
                     </div>
                     <div class="textbox">
+                        <label for="exampleInputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="exampleInputName" placeholder="Your Email">
+                    </div>
+                    <div class="textbox">
                         <label for="exampleInputDate">Date</label>
                         <input type="date" class="form-control" id="exampleInputdate"placeholder="Date" required>
                     </div>
@@ -47,7 +52,7 @@
                     <div class="textbox">
                         <label>Party Size</label>
                         <div class="box">
-                            <select>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                                 <option>1 People</option>
                                 <option>2 People</option>
                                 <option>3 People</option>
@@ -64,7 +69,7 @@
         </header>
         <footer>
             <div class="card-footer">
-                <small class="text-muted">© FoodHub 2019</small>
+                <small class="text-muted">Copyright 2019 All right reserved. © <a href="#">Food Hub</a></small>
             </div>
         </footer>
     </body>

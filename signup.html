@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Food Hub Signup</title>
+        <link rel="icon" href="images/icon.png">
         <link rel="stylesheet" type="text/css" href="/css/signup.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,37 +30,41 @@
                 </nav>
             </section>
             <div class="content">
-                <form method="get" action="index.html">
+                <form method="post" action="insert.php"></form>
                     <h1>Create an account</h1>
                     <div class="textbox">
+                        <label for="exampleInputName1">Name</label>
+                        <input type="name" class="form-control" id="exampleInputName" name ="username" placeholder="Your Name" required>
+                    </div>
+                    <div class="textbox">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Your Email" required>
                     </div>
                     <div class="textbox">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" pattern = ".{5,10}" required title = "5 to 10 characters" placeholder="Password">
+                        <input type="password" class="form-control" id="exampleInputPassword1" name="password" pattern = ".{5,10}" required title = "5 to 10 characters" placeholder="Password">
                     </div>
                      <div class="gender" required>
                          <div>Gender</div>
+                        <input id = "Male" type = "radio" name = "gender"  value = "Male">
                         <label for = "Male">Male</label>
-                        <input id = "Male" name = "gender" type = "radio" value = "Male">
+                        <input id = "Female" type = "radio" name = "gender"  value = "Female">
                         <label for = "Female">Female</label>
-                        <input id = "Female" name = "gender" type = "radio" value = "Female">
+                        <input id = "Other" type = "radio" name = "gender"  value = "Other">
                         <label for = "Other">Other</label>
-                        <input id = "Other" name = "gender" type = "radio" value = "Other">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                         <label class="form-check-label" for="exampleCheck1">Agreed</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" value="submit" class="btn btn-primary">Submit</button>
                     <h5>Have an account? <a href="login.html">Log in</a></h5>
                 </form>
             </div>
         </header>
         <footer>
             <div class="card-footer">
-                <small class="text-muted">© FoodHub 2019</small>
+                <small class="text-muted">Copyright 2019 All right reserved. © <a href="#">Food Hub</a></small>
             </div>
         </footer>
     </body>
