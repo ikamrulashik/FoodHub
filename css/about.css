@@ -3,12 +3,14 @@
     padding: 0;
 }
 header{
-    background-color: navajowhite;
-    height: 100vh;
-    background-size: cover;
+    background-image: url(/images/us.JPG);
+    height: 80vh;
+    background-size: contain;
+    background-attachment: fixed;
     background-position: center;
     text-align: center;
-}
+    
+}    
 #nav-bar{
     position: sticky;
     top: 0;
@@ -56,7 +58,9 @@ header{
 }
 footer{
     background-color: moccasin;
-    margin-top: 550px;
+    margin-top: 200px;
+    width: auto;
+    text-align: center;
 }
 .card-footer small{
     font-family: Century gothic;
@@ -69,4 +73,9 @@ footer{
 }
 content{
     background-color: antiquewhite;
+}
+.about p{
+    text-align: center;
+    padding: 20;
+    font-family: sans-serif;
 }

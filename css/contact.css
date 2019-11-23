@@ -3,23 +3,24 @@
     padding: 0px;
 }
 body{
-    text-align: center;
+    text-align: left;
 }
 .form-group{ 
     font-family: century gothic;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/447177.jpg);
+    background-image: url(/images/2808905-01.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
-    text-align: center;
+    background-position: left;
+    text-align: left;
+    background-attachment: fixed;
 }
 .content{
     width: 275px;
     position: absolute;
     top: 15%;
-    left: 40%;
+    left: 15%;
     color: white;
 }
 
@@ -67,7 +68,50 @@ header{
     text-decoration: none;
     padding: 5px 20px;
 }
-
+.form-control{
+    border: none;
+    outline: none;
+    color: transparent;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+.form-control:hover{
+    background-color: white;
+    transition: all 0.5s ease-in; 
+}
+.form-check-label{
+    color: white;
+    background: none;
+}
+.textbox input{
+    border: 1px solid white;
+    color: black;
+    padding: 5px 25px;
+    text-decoration: none;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+.contact-title{
+    margin-top: 80px;
+    color: purple;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contact-title h1{
+    font-size: 40px;
+    line-height: 10px;
+    padding: 10 0px;
+}
+.contact-title h2{
+    font-size: 17px;
+}
+.textarea{
+    background-color: none;
+    border: none;
+    font-display: black;
+}
 footer{
     background-color: moccasin;
     width: auto;
@@ -75,40 +119,6 @@ footer{
     left: 40%;
     text-align: center;
 }
-.form-control{
-    border: none;
-    outline: none;
-    background: none;
-    color: none;
-    text-align: center;
-    margin: 0px;
-}
-.form-check-label{
-    color: none;
-    background: none;
-}
-.textbox input{
-    border: none;
-    outline: none;
-    background: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    margin: 0px;
-}
-.contact-title{
-    margin-top: 100px;
-    color: white;
-    text-transform: uppercase;
-}
-.contact-title h1{
-    font-size: 40px;
-    line-height: 10px;
-    padding: 10px;
-}
-.contact-title h2{
-    font-size: 17px;
-}
-.textarea{
-    background-color: none;
+button{
+    position: center;
 }

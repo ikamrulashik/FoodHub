@@ -7,6 +7,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 #nav-bar{
     position: sticky;
@@ -55,14 +56,17 @@ header{
 }
 .tagline{
     position: absolute;
-    width: 1400px;
-    margin-left: -35px;
+    top: 20%;
+    left: 28%; 
     margin-top: 170px;
+    text-align: center;
+    position: inherit;
+    
 }
 .tagline img{
     position: center;
     width: 300px;
-    margin-left: 550px;
+    text-align: center;
     margin-top: -20px;
 }
 h1{
@@ -73,28 +77,30 @@ h1{
     text-align: center;
     margin-top: 265px;
 }
-.button{
-    margin-top: 8px;
-    margin-left: 560px;
-}
 .button a{
     border: 1px solid white;
     color: white;
     padding: 5px 25px;
     text-decoration: none;
-    margin-right: 10px;
-    font-size: 11px;
+    margin-right: 5px;
+    font-size: 13px;
 }
 .btn:hover{
     background-color: white;
     transition: all 0.5s ease-in; 
 }
 .text-muted{
-    margin-left: 600px;
     color: white;
 }
+/***
+*Footer-area
+***/
 footer{
     background-color: moccasin;
+    width: auto;
+    top: 40%;
+    left: 40%;
+    text-align: center;
 }
 .card-footer small{
     font-family: Century gothic;

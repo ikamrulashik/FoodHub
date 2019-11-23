@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-.form-group{
-    
+.form-group{ 
     font-family: century gothic;
 }
 header{
@@ -11,6 +10,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .content{
     width: 300px;
@@ -22,8 +22,6 @@ header{
 .content h1{
     margin-bottom: 8px;
 }
-
-
 #nav-bar{
     position: sticky;
     top: 0;
@@ -68,7 +66,6 @@ header{
     text-decoration: none;
     padding: 5px 20px;
 }
-
 footer{
     background-color: moccasin;
     width: auto;
@@ -76,7 +73,6 @@ footer{
     left: 40%;
     text-align: center;
 }
-
 .form-check-label{
     color: white;
     background: none;

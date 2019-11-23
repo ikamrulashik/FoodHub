@@ -3,15 +3,16 @@
     padding: 0px;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/447177.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/188910-OXJR4X-533.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .content{
     width: 300px;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 40%;
     color: white;
     padding: 10px;
@@ -70,6 +71,7 @@ header{
     width: 1400px;
     margin-left: -35px;
     margin-top: 170px;
+    background-attachment: fixed;
 }
 .tagline img{
     position: center;
@@ -102,11 +104,14 @@ h1{
     transition: all 0.5s ease-in; 
 }
 .text-muted{
-    margin-left: 600px;
     color: white;
 }
 footer{
     background-color: moccasin;
+    width: auto;
+    top: 40%;
+    left: 40%;
+    text-align: center;
 }
 .card-footer small{
     font-family: Century gothic;
@@ -123,24 +128,24 @@ select{
 }
 .box select{
     background: none;
-    color: white;
     padding: 8px 110px;
-    width: 300px;
-    height: 50px;
-    margin: 0px;
+    width: 280px;
+    height: 35px;
+    color: white;
+    background-color: none;
     border: none;
-    outline: none;
+    margin: 0px;
     font-size: 15px;
-    -webkit-appearance: button;
     border-radius: 3px;
-    background: none;
-    margin-left: 275px;
+    margin-left: 280px;
     margin-top: 30px;
     text-align: center;
 }
-.btn{
-    margin-top: 40px;
-    text-align: center;
+.box select:hover{
+    color: black;
+}
+.box select:hover before{
+    color: white;
 }
 .textbox input{
     border: none;
@@ -149,4 +154,8 @@ select{
     color: white;
     text-align: center;
     margin: 0px;
+}
+.btn{
+    margin-top: 40px;
+    text-align: center;
 }
