@@ -2,7 +2,7 @@
     <head>
         <title>Food Hub Signup</title>
         <link rel="icon" href="images/icon.png">
-        <link rel="stylesheet" type="text/css" href="/css/signup.css">
+        <link rel="stylesheet" type="text/css" href="css/signup.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -14,7 +14,7 @@
         <header>
             <section id="nav-bar">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><img src="/images/logo.png"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,7 +30,7 @@
                 </nav>
             </section>
             <div class="content">
-                <form method="post" action="insert.php"></form>
+                <form method="POST" action="src/insert.php">
                     <h1>Create an account</h1>
                     <div class="textbox">
                         <label for="exampleInputName1">Name</label>
@@ -57,7 +57,7 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                         <label class="form-check-label" for="exampleCheck1">Agreed</label>
                     </div>
-                    <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" value="submit" class="btn btn-primary">Submit</button>
                     <h5>Have an account? <a href="login.html">Log in</a></h5>
                 </form>
             </div>

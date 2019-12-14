@@ -3,8 +3,6 @@
     padding: 0;
 }
 header{
-    background-image: url(/images/us.JPG);
-    height: 80vh;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
@@ -58,7 +56,6 @@ header{
 }
 footer{
     background-color: moccasin;
-    margin-top: 200px;
     width: auto;
     text-align: center;
 }
