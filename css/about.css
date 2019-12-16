@@ -57,16 +57,18 @@ body{
     padding: 5px 20px;
 }
 footer{
-    margin-top: 400px;
     background-color: moccasin;
     width: auto;
+    top: 40%;
+    left: 40%;
     text-align: center;
+    margin-top: 450px;
 }
 .card-footer small{
     font-family: Century gothic;
     color: black;
-    position: center;
 }
+
 .text-muted{
     margin-left: 0px;
     color: white;
@@ -84,9 +86,6 @@ footer{
     padding: 20;
     font-family: sans-serif;
 }
-.info .card{
-    margin-left: 240px;
-}
 .info h2{
     padding: 10 0px;
     color: white;
@@ -96,16 +95,14 @@ footer{
 .card{
     font-size: 12px;
     text-align: center;
-    position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     transition: 0.4s;
     background: #fff;
     width: 200px;
-    height: 300px;
+    height: 280px;
     float: left;
-    margin: 50 20px;
-    left: 70px;
-    position: relative;
-    display: flex;
+    margin: 5%;
+    position: center;
     transition: .6s ease-out;
+    left: 23%;
 }
