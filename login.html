@@ -30,19 +30,19 @@
                 </nav>
             </section>
             <div class="content">
-                <form method="get" action="/">
+                <form method="get" action="authin.php">
                     <h1>Log In</h1>
                     <div class="textbox">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <input name ="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                     </div>
                     <div class="textbox">
                         <i class="fa fa-lock" aria-hidden="true"></i>
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" pattern = ".{5,10}" required title = "5 to 10 characters" placeholder="Password">
+                        <input name="password" type="password" class="form-control" id="exampleInputPassword1" pattern = ".{5,10}" required title = "5 to 10 characters" placeholder="Password">
                     </div>
-                    <button type="submit"  class="btn btn-primary">Login</button>
+                    <button name ="submit" type="submit"  class="btn btn-primary">Login</button>
                     <h5>Don't have an account? <a href="signup.html">Sign up</a></h5>
                 </form>
             </div>
